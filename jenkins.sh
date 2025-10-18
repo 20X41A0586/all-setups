@@ -5,7 +5,7 @@ sudo yum update -y
 sudo yum install git maven -y
 
 # Install Java 11
-sudo amazon-linux-extras install java-openjdk11 -y
+sudo amazon-linux-extras install java-openjdk17 -y
 
 # Add Jenkins repo
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
